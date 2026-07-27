@@ -5,3 +5,4 @@ Online assessment practice for companies. Test cases are created by AI. Submissi
 ## Optiver
 
 - Proportional Allocation Strategy Backtest
+- Stock Transaction Sequence Counting 1
