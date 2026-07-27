@@ -1,6 +1,6 @@
 # Company OA Practice
 
-Online assessment practice for companies.
+Online assessment practice for companies. Test cases are created by AI. Submission correctness is checked by AI.
 
 ## Optiver
 
