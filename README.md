@@ -7,3 +7,6 @@ Online assessment practice for companies. Test cases are created by AI. Submissi
 - Proportional Allocation Strategy Backtest
 - Stock Transaction Sequence Counting 1
 - Stock Transaction Sequence Counting 2
+- Stock Transaction Sequence Counting 2
+- [Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/description/)
+- Build Binary Tree from Edges
