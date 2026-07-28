@@ -6,3 +6,4 @@ Online assessment practice for companies. Test cases are created by AI. Submissi
 
 - Proportional Allocation Strategy Backtest
 - Stock Transaction Sequence Counting 1
+- Stock Transaction Sequence Counting 2
