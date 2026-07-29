@@ -11,3 +11,4 @@ Online assessment practice for companies. Test cases are created by AI. Submissi
 - [Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates)
 - Build Binary Tree from Edges
 - [Order Book Matching Simulation](https://leetcode.com/problems/number-of-orders-in-the-backlog)
+- Squirrel Nut Storage Tracker
