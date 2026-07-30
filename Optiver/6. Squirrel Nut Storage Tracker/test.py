@@ -1,4 +1,3 @@
-import os
 import time
 import unittest
 
@@ -121,10 +120,6 @@ class TestSquirrelResearch(unittest.TestCase):
         self.assertIn("nut", research.nuts_set)
         self.assertEqual(research.location_dic["oak"][0].size, 1)
 
-    @unittest.skipUnless(
-        os.environ.get("RUN_STRESS_TESTS") == "1",
-        "Set RUN_STRESS_TESTS=1 to run the 100,000-nut stress test",
-    )
     def test_extreme_100000_nuts(self):
         nut_count = 100_000
         research = SquirrelResearch({"giant-tree": 25})

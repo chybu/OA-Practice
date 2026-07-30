@@ -16,7 +16,7 @@ def fibonanci(n, dic):
     return val
 
 def remove_stale(target, token_set):
-    while target[0][3] not in token_set:
+    while target and target[0][3] not in token_set:
         heapq.heappop(target)
     
     
@@ -142,8 +142,8 @@ class SquirrelResearch:
                         remove_stale(storage.min_heap, storage.token_set)
                         new_nut = heapq.heappop(storage.min_heap)
                         storage.size-=1
-                        storage.token_set.remove(token1)
-                        sub_storage.token_set.add(token1)
+                        storage.token_set.remove(new_nut[3])
+                        sub_storage.token_set.add(new_nut[3])
                         
                         heapq.heappush(sub_storage.max_heap, (-new_nut[0], new_nut[1], new_nut[2], new_nut[3]))
                         heapq.heappush(sub_storage.min_heap, new_nut)
