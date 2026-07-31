@@ -12,3 +12,5 @@ Online assessment practice for companies. Test cases are created by AI. Submissi
 - Build Binary Tree from Edges
 - [Order Book Matching Simulation](https://leetcode.com/problems/number-of-orders-in-the-backlog)
 - Squirrel Nut Storage Tracker
+- Hot Air Balloon Festival Simulation
+- Event-Driven CPU Overheat
